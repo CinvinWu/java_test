@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="注册接口">
+        <classes>
+            <class name="com.cinvin.cases.Register"></class>
+            <parameter name="sheetIndex" value="0"></parameter>
+        </classes>
+    </test>
+    <test name="登录接口">
+        <classes>
+            <class name="com.cinvin.cases.Login"></class>
+            <parameter name="sheetIndex" value="1"></parameter>
+        </classes>
+    </test>
+    <test name="充值接口">
+        <classes>
+            <class name="com.cinvin.cases.Configures"></class>
+            <parameter name="sheetIndex" value="2"></parameter>
+        </classes>
+    </test>
+    <test name="项目列表">
+        <classes>
+            <class name="com.cinvin.cases.Projects"></class>
+            <parameter name="sheetIndex" value="3"></parameter>
+        </classes>
+    </test>
+    <test name="创建项目">
+        <classes>
+            <class name="com.cinvin.cases.Projects"></class>
+            <parameter name="sheetIndex" value="4"></parameter>
+        </classes>
+    </test>
+
+</suite>
